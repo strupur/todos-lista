@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 // definir esquema de nuestro modelo
 
-const userSchema = new Schema({
+const todolistSchema = new Schema({
   titulo: {
     type: String,
     required: true
@@ -22,4 +22,4 @@ const userSchema = new Schema({
  }
 });
 
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model("User", todolistSchema);
