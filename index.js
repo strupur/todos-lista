@@ -19,13 +19,7 @@ mongoose.connect(DATABASE_URL,).then(() => {
 
 }).catch(error => console.log("Error al conectar a la DB!", error));
 
-// app.get("/", (req,res) => {
-//    res.send("Hola Mundo")
-// })
 
-// app.post("/products", (req,res) => {
-//     res.send("Creando un producto");
-// })
 
 
 

@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-// definir esquema de nuestro modelo
 
 const todolistSchema = new Schema({
   titulo: {
@@ -22,4 +21,4 @@ const todolistSchema = new Schema({
  }
 });
 
-module.exports = mongoose.model("User", todolistSchema);
+module.exports = mongoose.model("Todo", todolistSchema);

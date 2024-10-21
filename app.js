@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
 
-const userRoutes = require('./routes/todolist.routes')
+const todoRoutes = require('./routes/todolist.routes')
 
 app.use( express.json());
 
-app.use([ userRoutes ])
+app.use([ todoRoutes ])
 
 module.exports = app;
